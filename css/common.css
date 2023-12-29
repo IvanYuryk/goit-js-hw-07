@@ -8,46 +8,18 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif;
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
-}
-
-body {
-  font-family: 'Montserrat', sans-serif;
-  color: #2E2F42;
-  background-color: #fafafa;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-.gallery {
-  display: flex;
-  width: 1440px;
-  height: 848px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 48px;
-  margin: 0 auto;
-  list-style: none;
-  flex-wrap: wrap;
-}
-
-img {
-  width: 360px;
-  height: 300px;
-}
-
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
-
-* {
-  box-sizing: border-box;
-}
-
 
 h1,h2,h3,p {
   margin: 0;
@@ -109,6 +81,24 @@ h2 {
 }
 
 /* Task 2 */
+.gallery {
+  display: flex;
+  width: 1440px;
+  height: 848px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 48px;
+  margin: 0 auto;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 360px;
+  height: 300px;
+}
+
 /* img {
   width: 360px;
   height: 300px;
